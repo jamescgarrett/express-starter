@@ -1,0 +1,24 @@
+{
+    "extends": "airbnb-base",
+    "parser": "babel-eslint",
+    "rules": {
+        "quotes": [2, "single"],
+        "strict": 0,
+        "react/jsx-uses-react": 2,
+        "react/jsx-uses-vars": 2,
+        "react/react-in-jsx-scope": 2,
+        "no-underscore-dangle": 0,
+        "no-unneeded-ternary": 0
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+    },
+    "plugins": [
+        "react"
+    ]
+}

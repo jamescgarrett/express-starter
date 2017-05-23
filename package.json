@@ -1,0 +1,60 @@
+{
+  "name": "express-starter",
+  "version": "1.0.0",
+  "description": "Boilerplate for express + react apps - Based heavily on https://github.com/sahat/hackathon-starter",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamescgarrett/express-starter.git"
+  },
+  "author": "Sahat Yalkabov / James C Garrett",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "dependencies": {
+    "async": "^2.1.2",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.15.2",
+    "chalk": "^1.1.3",
+    "compression": "^1.6.2",
+    "connect-mongo": "^1.3.2",
+    "cors": "^2.8.1",
+    "dotenv": "^2.0.0",
+    "errorhandler": "^1.4.3",
+    "express": "^4.14.0",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.14.2",
+    "express-status-monitor": "^0.1.5",
+    "express-validator": "^3.1.2",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.16.6",
+    "lusca": "^1.4.1",
+    "mongoose": "^4.6.6",
+    "morgan": "^1.7.0",
+    "multer": "^1.2.0",
+    "passport": "0.3.2",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "validator": "^6.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.8.0",
+    "babel-eslint": "^7.1.1",
+    "babel-polyfill": "^6.8.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^6.10.0",
+    "mocha": "^3.4.1",
+    "rimraf": "^2.6.1",
+    "supertest": "^3.0.0"
+  }
+}
